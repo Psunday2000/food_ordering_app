@@ -3,12 +3,12 @@
 
 import 'package:food_ordering_app/food_item.dart';
 
-class OrderItem {
+class FoodOrder {
   final int orderId;
   final FoodItem foodItem;
   final int quantity;
 
-  OrderItem({
+  FoodOrder({
     required this.orderId,
     required this.foodItem,
     required this.quantity,

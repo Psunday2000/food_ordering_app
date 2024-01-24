@@ -2,12 +2,12 @@
 // class defining the data structure of the order entity and relationships
 
 import 'package:food_ordering_app/user.dart';
-import 'package:food_ordering_app/order_item.dart';
+import 'package:food_ordering_app/food_order.dart';
 
 class Order {
   final int orderId;
   final User user;
-  final List<OrderItem> items;
+  final List<FoodOrder> items;
   final double totalPrice;
   final String status;
 
